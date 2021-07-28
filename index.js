@@ -24,9 +24,8 @@ console.log(checkConcat);
 
 let hello = concatStr.bind(null, 'Hello', ' ');
 
-let finalResult = hello('Sasha') // 'Hello Sasha’
+let finalResult = hello('John')
 console.log(finalResult);
-
 
 //3
 showNumbers(5, 10, 500);
@@ -41,6 +40,20 @@ function showNumbers(min, max, interval) {
 }
 
 //4
+// function addBase(base) {
+//     return function (num) {
+//         return base + num;
+//     };
+// }
+// let addOne = addBase(1);
+// alert(addOne(5) + addOne(3));
+// результат будет 10 так как в addBase мы присвоили один, и когда у нас просиходит
+// сложение то к числу 5 у нас добавляется один.
+
+
+
+
+
 
 
 
